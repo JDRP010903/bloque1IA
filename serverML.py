@@ -1,7 +1,7 @@
 # Importación de bibliotecas
 from flask import Flask, request, jsonify, render_template
 import numpy as np
-import load from joblib
+from load import joblib
 import os
 from werkzeug.utils import secure_filename
 
